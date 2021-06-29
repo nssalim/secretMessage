@@ -26,6 +26,7 @@ secretMessage.pop();
 console.log('Length of message (after last element removed): ' + secretMessage.length);
 // Output: Length of message (after last element removed): 23
 
+
 // add the words 'to' and 'Program' as separate strings to the end of the secretMessage array
 secretMessage.push('to', 'Program');
 // Output shows 'to' and 'Program' added to the end of the array
@@ -51,8 +52,16 @@ console.log("New first element (after removal): " + "'" + secretMessage[0] + "'"
 // add the string 'Programming' to the beginning of the array
 secretMessage.unshift('Programming');
 console.log("New first element (added): " + "'" + secretMessage[0] + "'");
+// New first element (added): 'Programming'
+
 
 // remove the strings 'get', 'right', 'the', 'first', 'time', and replace them with the single string 'know'
+// console.log(secretMessage);
+secretMessage.splice(6, 5, 'know, ');
+// console.log(secretMessage);
+console.log("Elements 'get', 'right', 'the', 'first', 'time' replaced with: " + "'" + secretMessage[6] + "'")
 
 
 // use console.log() and .join() to print the secret message as a sentence
+
+
