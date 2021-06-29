@@ -7,10 +7,11 @@ let secretMessage = ['Learning', 'is', 'not', 'about', 'what', 'you', 'get', 'ea
 console.log('Secret Message')
 
 // remove the last string of the array secretMessage
-
+secretMessage.pop();
 
 // check length is 1 less than the original length
-
+console.log(secretMessage);
+// Output: 'JavaScript' removed from array
 
 // add the words 'to' and 'Program' as separate strings to the end of the secretMessage array
 
