@@ -30,7 +30,7 @@ console.log('Length of message (after last element removed): ' + secretMessage.l
 // add the words 'to' and 'Program' as separate strings to the end of the secretMessage array
 secretMessage.push('to', 'Program');
 // Output shows 'to' and 'Program' added to the end of the array
-console.log("Add to end of array: 'to' and 'Program'")
+console.log("Add to end of array: 'to' and 'Program'");
 
 
 // change the element 'easily' to the element 'right' by accessing the index and replacing it
@@ -41,7 +41,7 @@ console.log("Replace element 'easily' with: " + "'" + secretMessage[7] + "'");
 // return removed first element of the array secretMessage
 // console.log("Return removed first element: " + "'" + secretMessage.shift() + "'");
 // Output: Return removed first element: 'Learning'
-console.log("Original first element: " + "'" + secretMessage[0] + "'")
+console.log("Original first element: " + "'" + secretMessage[0] + "'");
 // Output: Original first element: 'Learning'
 
 // remove the first string of the array
@@ -59,9 +59,16 @@ console.log("New first element (added): " + "'" + secretMessage[0] + "'");
 // console.log(secretMessage);
 secretMessage.splice(6, 5, 'know, ');
 // console.log(secretMessage);
-console.log("Elements 'get', 'right', 'the', 'first', 'time' replaced with: " + "'" + secretMessage[6] + "'")
+console.log("Elements 'get', 'right', 'the', 'first', 'time' replaced with: " + "'" + secretMessage[6] + "'");
 
 
 // use console.log() and .join() to print the secret message as a sentence
+console.log(secretMessage.join(' '));
+// Output: Programming is not about what you know,  it is about what you can figure out. -2015, Chris Pine, Learn to Program
+
+
+// consult the https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array for reference on methods
+
+
 
 
